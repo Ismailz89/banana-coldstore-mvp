@@ -1,0 +1,7 @@
+streamlit
+pandas
+supabase==2.32.0
+Pillow
+ultralytics==8.4.175
+torch
+torchvision

@@ -1,0 +1,10 @@
+{
+  "framework": "ultralytics",
+  "version": "8.4.175",
+  "task": "classify",
+  "imgsz": 224,
+  "input": "Pillow RGB image; EXIF orientation corrected by wrapper",
+  "inference_transforms": "Use checkpoint transforms through YOLO.predict; inspected checkpoint contains bilinear antialiased Resize(224), CenterCrop, ToTensor, Normalize. Do not add manual normalization.",
+  "device": "cpu",
+  "model_sha256": "5166667a2ff78e9c83f5406e5ba64d84202334e192557e4d77c55f6a7ac39374"
+}
